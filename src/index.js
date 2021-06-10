@@ -4,11 +4,14 @@ import './index.css';
 import './common.css';
 
 import App from './App';
-
+import Car from './my-folder/car';
 
 import reportWebVitals from './reportWebVitals';
 
 
+
+
+ReactDOM.render(<Car brand="Toyota" />,document.getElementById('another-root'));
 
 
 const myElement = React.createElement('h1',{},'Hello Bangladesh. How are u?');
