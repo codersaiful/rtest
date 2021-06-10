@@ -16,23 +16,10 @@ const myTable = (
     <tr>
       <td>Saiful Islam</td>
       <td>Rajshahi, Bangladesh</td>
-    </tr>
-    <tr>
-      <td>Saiful Islam 1</td>
-      <td>Rajshahi, Bangladesh</td>
-    </tr>
-    <tr>
-      <td>Saiful Islam 2</td>
-      <td>Rajshahi, Bangladesh</td>
-    </tr>
-    <tr>
-      <td>Saiful Islam 3</td>
-      <td>Rajshahi, Bangladesh</td>
-    </tr>
-    
+    </tr>    
   </table>
 );
-
+ReactDOM.render(myTable,document.getElementById('another-root'));
 // ReactDOM.render(
 //   <React.StrictMode>
 //     <Header />
@@ -56,6 +43,10 @@ ReactDOM.render(
 //   </React.StrictMode>,
 //   document.getElementById('root')
 // );
+
+
+const myElement = React.createElement('h1',{},'Hello Bangladesh. How are u?');
+ReactDOM.render(myElement,document.getElementById('third'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
