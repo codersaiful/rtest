@@ -3,12 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import './common.css';
 
-import App from './App';
+// import App from './App';
 import Car from './my-folder/car';
+import MyEvent from './my-folder/event';
+
 
 import reportWebVitals from './reportWebVitals';
 
 
+/**
+ * Event Management of Click/Focus Event
+ */
+ ReactDOM.render(
+  <React.StrictMode>
+     <MyEvent text="Saiful" />
+   </React.StrictMode> 
+  ,document.getElementById('event'));
 
 
 ReactDOM.render(<Car brand="Toyota" />,document.getElementById('another-root'));
