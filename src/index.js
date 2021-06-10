@@ -6,11 +6,15 @@ import './common.css';
 // import App from './App';
 import Car from './my-folder/car';
 import MyEvent from './my-folder/event';
+import Form from './my-folder/form';
 
 
 import reportWebVitals from './reportWebVitals';
 
-
+/**
+ * Form Handle
+ */
+ ReactDOM.render(<Form brand="Toyota" />,document.getElementById('form'));
 /**
  * Event Management of Click/Focus Event
  */
