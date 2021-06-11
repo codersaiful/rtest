@@ -12,7 +12,7 @@ class Form extends React.Component{
 
     render() {
         let name = <p>Please Enter name</p>;
-        if(this.state.username !== ''){
+        if(this.state.usernames !== ''){
             name = '';
         }
         return (
