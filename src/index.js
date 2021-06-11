@@ -8,8 +8,18 @@ import Car from './my-folder/car';
 import MyEvent from './my-folder/event';
 import Form from './my-folder/form';
 
+// Import from my-comp folder
+import MyHeader from './my-comp/myheader';
+
 
 import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <MyHeader />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
 /**
  * Form Handle
@@ -35,4 +45,3 @@ ReactDOM.render(myElement,document.getElementById('third'));
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-console.log(process?.env);

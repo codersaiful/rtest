@@ -1,1 +1,24 @@
 #third{border: 1px solid red;margin: 20px;}
+ul.navbar {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 3px solid #ddd;
+    align-content: space-between;
+}
+
+ul.navbar a {
+    padding: 15px;
+    margin: 1px;
+    background: #abc;
+    text-decoration: none;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul.navbar a:hover {
+    background: black;
+}
